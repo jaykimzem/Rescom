@@ -369,11 +369,7 @@ p {
     margin-bottom: var(--spacing-xs);
 }
 
-.stat-number::after {
-    content: '%';
-    font-size: 0.6em;
-    margin-left: 0.25rem;
-}
+
 
 .stat-label {
     font-size: 1rem;

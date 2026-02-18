@@ -72,14 +72,15 @@ document.addEventListener('DOMContentLoaded', function () {
         const increment = target / 50;
         const duration = 2000;
         const stepTime = duration / 50;
+        const suffix = element.getAttribute('data-suffix') || '';
 
         const timer = setInterval(() => {
             current += increment;
             if (current >= target) {
-                element.textContent = target;
+                element.textContent = target + suffix;
                 clearInterval(timer);
             } else {
-                element.textContent = Math.floor(current);
+                element.textContent = Math.floor(current) + suffix;
             }
         }, stepTime);
     }
