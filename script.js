@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // --- AI CHATBOT LOADER (3-Layer Architecture) ---
     function loadAIChat() {
         // Replace with your actual Vercel deployment URL
-        const VERCEL_URL = 'https://agent-realty-ai.vercel.app';
+        const VERCEL_URL = 'https://agent-realty.vercel.app';
 
         // Inject CSS
         const link = document.createElement('link');
